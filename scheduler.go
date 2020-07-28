@@ -15,7 +15,6 @@ import (
 // Worker interface for writing the actual job to be executed according to the Schedule.
 type Worker interface {
 	PerformWork()
-	GetName() string
 }
 
 type confirmation bool
